@@ -56,7 +56,7 @@ async function sendTelegram(message) {
 
   // ▪ Select month = 2 (March, but UI is zero-indexed)
   await page.waitForSelector(".lightpick__select-months");
-  await page.select(".lightpick__select-months", "1");
+  await page.select(".lightpick__select-months", "2");
 
   // ▪ Pick date 24
   const daySelector =
